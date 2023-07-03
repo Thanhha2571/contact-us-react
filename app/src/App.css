@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Barlow-Bold;
+  src: url('./font/Barlow/Barlow-Bold.ttf');
+}
+
+@font-face {
+  font-family: Barlow-Regular;
+  src: url('./font/Barlow/Barlow-Regular.ttf');
+}
+
+@font-face {
+  font-family: Barlow-Medium;
+  src: url('./font/Barlow/Barlow-Medium.ttf');
+}
+
+/* Styles for the dropdown menu */
+.dropdown-menu {
+  width: 200px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none; /* Initially hide the dropdown menu */
+}
+
+.dropdown-menu.active {
+  display: block; /* Show the dropdown menu when active */
+}
+
+/* Styles for the dropdown options */
+.dropdown-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-menu ul li:hover {
+  background-color: #ccc;
+}
